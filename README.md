@@ -1,6 +1,7 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+# [scriptics](http://scriptics.ir/)
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
+[scriptics](http://scriptics.ir/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](https://github.com/hooshmand/startbootstrap-grayscale/) and edited by [Hooshmand](http://scriptics.ir/).
+This forked repository is edited to be RTL HTML theme and uses [Shabnam](https://github.com/rastikerdar/shabnam-font).
 
 ## Getting Started
 
@@ -10,7 +11,7 @@ To use this template, choose one of the following options to get started:
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/hooshmand/startbootstrap-grayscale/issues) here on GitHub.
 
 ## Creator
 

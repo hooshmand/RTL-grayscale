@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Scriptics</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
 
+    <!-- RTL CSS -->
+    <link href="css/rtl.css" rel="stylesheet">	
+	
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -36,32 +39,35 @@
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header navbar-right">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                    <i class="fa fa-play-circle"></i>  <span class="light">ابتدای صفحه</span>
                 </a>
-            </div>
+            </div>	
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <div class="collapse navbar-collapse navbar-left navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">درباره من</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                        <a class="page-scroll" href="#Links">لینک سایت‌ها</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">تماس</a>
                     </li>
-                </ul>
+                    <li>
+                        <a class="page-scroll" href="https://scriptics.ir/blog/">وبلاگ</a>
+                    </li>
+				</ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -74,8 +80,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Grayscale</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
+                        <h1 class="brand-heading">Scriptics</h1>
+                        <p class="intro-text">نوشته‌های هوشمند، از برنامه‌نویسی و عکاسی تا امنیت و مدیریت سرور<br></p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -89,57 +95,101 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
-            </div>
+                <h2>درباره من</h2>
+                <p>سال‌ها پیش مهندسی مکانیک خوندم اما از همون زمان به برنامه‌نویسی و امنیت سایبری علاقه زیادی داشتم. زمانی هم در دنیای هکرها قدم زدم.</p>
+                <p>بعد از ۵ سال کار مهندسی، تصمیم گرفتم که جدی‌تر علاقه‌ام رو دنبال کنم. الان دیگه می‌تونم خودم رو کارشناس امنیتی و تست کننده نفوذ معرفی کنم. همچنین دستی هم در برنامه‌نویسی به زبان‌های PHP، Python و Java دارم. </p>
+				<p>مدیریت سرور کار پر دردسر و جالبیه که این روزها درگیرشم و یاد می‌گیرم و یادگرفته‌هام رو هم در اختیار دیگران می‌گذارم. </p>
+                <a href="#Links" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+			</div>
         </div>
     </section>
 
     <!-- Download Section -->
-    <section id="download" class="content-section text-center">
+    <section id="Links" class="content-section text-center">
         <div class="download-section">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
-                </div>
-            </div>
-        </div>
-    </section>
+				<div class="col-lg-12">
+					<h2 class="page-header">سایت‌های من</h2>
+				</div>
+				<div class="col-lg-4 col-sm-6 text-center">
+					<a href="https://scriptics.ir/blog/" class="btn">
+                        <i class="fa fa-shield fa-5x"></i>
+                    </a>
+					<h3>Scriptics
+						<small>وبلاگ شخصی</small>
+					</h3>
+					<p>نوشته‌های شخصی با محوریت امنیت سایبری و حریم خصوصی</p>
+				</div>					
+				<div class="col-lg-4 col-sm-6 text-center">
+					<a href="https://vpslab.ir/" class="btn">
+                        <i class="fa fa-flask fa-5x"></i>
+                    </a>
+					<h3>VPSlab
+						<small>مدیریت سرور</small>
+					</h3>
+					<p>وبلاگ گروهی با تمرکز بر مدیریت سرور و سرویس‌های مرنبط</p>
+				</div>						
+				
+				<div class="col-lg-4 col-sm-6 text-center">
+					<a href="https://ha.ckers.ir/" class="btn">
+                        <i class="fa fa-eye fa-5x"></i>
+                    </a>
+					<h3>Hackers
+						<small>هکرها</small>
+					</h3>
+					<p>وبلاگی برای معرفی هکرهای ایرانی</p>
+				</div>	
+	
+				
+			</div>
+
+			<a href="#contact" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+            </a>
+
+		</div>
+
+	</section>
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                <h2>تماس</h2>
+                <p>برای تماس با من می‌توانید به ایمیل شخصی پیام بفرستید و یا از آدرس زیر استفاده کنید</br>
+                <a href="mailto:me@scriptics.ir">me@scriptics.ir</a>
                 </p>
+				<p>اثرانگشت و لینک کلید عمومی برای تماس رمزنگاری شده. در صورت ارسال اطلاعات حساس، توصیه می‌کنم که از رمزنگاری استفاده کنید.</br>
+				<a href="https://scriptics.ir/pub_key/hooshmand_pub.asc">PGP: 3C85 C54F 56F7 F42C 3B9B D9BA 54AB 442A 50C6 7C87</a>
+                </p>
+				<p></p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://twitter.com/hooshmandk" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/hooshmand" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="https://plus.google.com/u/0/+hooshmandk/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
-                </ul>
+                    <li>
+                        <a href="https://www.facebook.com/hooshmand" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
+                    </li>
+				</ul>
             </div>
         </div>
     </section>
 
     <!-- Map Section -->
-    <div id="map"></div>
+    <!-- <div id="map"></div> -->
 
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p></p>
         </div>
     </footer>
 

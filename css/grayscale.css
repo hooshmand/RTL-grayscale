@@ -281,7 +281,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 50px;
     }
 
     .download-section {
@@ -292,6 +292,10 @@ a:focus {
         height: 400px;
         margin-top: 250px;
     }
+    
+	.row {
+        padding-top: 50px;
+    }	
 }
 
 .btn {
