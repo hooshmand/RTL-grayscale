@@ -1,6 +1,6 @@
-# [scriptics](http://scriptics.ir/)
+# [RTL grayscale](http://scriptics.ir/)
 
-[scriptics](http://scriptics.ir/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](https://github.com/hooshmand/startbootstrap-grayscale/) and edited by [Hooshmand](http://scriptics.ir/).
+[RTL grayscale](http://scriptics.ir/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](https://github.com/hooshmand/startbootstrap-grayscale/) and edited by [Hooshmand](http://scriptics.ir/).
 This forked repository is edited to be RTL HTML theme and uses [Shabnam](https://github.com/rastikerdar/shabnam-font).
 
 ## Getting Started
